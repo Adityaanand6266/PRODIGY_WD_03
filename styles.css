@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: red;
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 80px;
+  background-color: red;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  background-color: white;
+  padding: 60px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: cyan;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: violet;
+}
